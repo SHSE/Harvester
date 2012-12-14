@@ -53,6 +53,7 @@
     <Compile Include="..\.shared\VersionInfo.cs">
       <Link>Properties\VersionInfo.cs</Link>
     </Compile>
+    <Compile Include="Messaging\Sources\Network\UdpMessageListener.cs" />
     <Compile Include="Types.cs" />
     <Compile Include="Configuration\ExtendableConfigurationElement.cs" />
     <Compile Include="Configuration\FiltersSection.cs">
@@ -90,6 +91,7 @@
     <Compile Include="Messaging\Parsers\DefaultParser.cs" />
     <Compile Include="Messaging\Parsers\IParseMessages.cs" />
     <Compile Include="Messaging\Parsers\Log4JParser.cs" />
+    <Compile Include="Messaging\Parsers\Log4JParserForRemoteMessage.cs" />
     <Compile Include="Messaging\Parsers\RegexParser.cs">
       <SubType>Code</SubType>
     </Compile>
